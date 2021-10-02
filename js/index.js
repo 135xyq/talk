@@ -73,7 +73,7 @@
                 var reg1 = /喜欢谁/;
                 var reg2 = /爱谁/;
                 if (reg1.test(txt) || reg2.test(txt)) {
-                    txtInToHtml("我喜欢冯孟宇，永远喜欢！爱意随风起，风止意难平！");
+                    txtInToHtml("我喜欢周梦梦，永远喜欢！爱意随风起，风止意难平！");
                 } else { txtInToHtml(res.responseTxt, 'left'); }
 
                 scrollToBottom(); //每次渲染完消息都自动滚动到可见区域
